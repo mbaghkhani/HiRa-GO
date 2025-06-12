@@ -12,23 +12,12 @@ HiRa-GO is a DFS-based algorithm designed to detect hierarchical communities in 
 The method is especially suitable for biological networks such as the Gene Ontology and achieves better interpretability and lower structural entropy than modularity-based algorithms like Louvain.
 ## How to Run
 
-1. Install required packages:
+1. Install required packages.
 
-```
-pip install -r requirements.txt
-```
+2. use the Jupyter Notebook:
 
-2. Run the algorithm:
+jupyter notebook HiRa-GO.ipynb
 
-```
-python HiRaGO.py
-```
-
-3. Or use the Jupyter Notebook:
-
-```
-jupyter notebook notebooks/demo.ipynb
-```
 
 ## Evaluation
 
@@ -43,19 +32,4 @@ HiRa-GO was evaluated on the Gene Ontology dataset and compared with the Louvain
 
 The Gene Ontology dataset used in this study is in `go-basic.json` format and is available from the official GO website.
 
-## Citation
 
-If you use this repository in your research, please cite:
-
-```
-@article{yourname2025hirago,
-  title={HiRa-GO: A Hierarchical Rainbow Community Detection Algorithm for Gene Ontology Networks},
-  author={Your Name and Coauthors},
-  journal={Journal Name},
-  year={2025}
-}
-```
-
-## License
-
-This project is licensed under the MIT License.
