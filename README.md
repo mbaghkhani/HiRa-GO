@@ -3,7 +3,7 @@
 This repository contains the official implementation of the HiRa-GO algorithm proposed in the paper:
 
 **HiRa-GO: A Hierarchical Rainbow Community Detection Algorithm for Gene Ontology Networks**  
-[Author(s)], [Affiliation], 2025
+
 
 ## Description
 
